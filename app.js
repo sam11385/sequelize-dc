@@ -29,9 +29,15 @@ app.get('/', function(req, res) {
 // });
 
 // Query single row from table
-models.user.findAll().then(results => {
-  const r = results[0];
-  console.log(r.id, r.firstName);
-});
+// models.user.findAll().then(results => {
+//   const r = results[0];
+//   console.log(r.id, r.firstName);
+// });
 
+//Query using WHERE clause
+// models.user.findAll({ where: { firstName: 'Veronica' } }).then(results => {
+//   results.forEach(function(index) {
+//     console.log(index.id, index.firstName);
+//   });
+// });
 app.listen(3000);
