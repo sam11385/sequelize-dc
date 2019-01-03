@@ -1,0 +1,2 @@
+# sequelize-dc
+Sequelize us!
