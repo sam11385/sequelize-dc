@@ -1,2 +1,3 @@
 # sequelize-dc
-Sequelize us!
+
+Sequlize example
