@@ -1,3 +1,3 @@
 # sequelize-dc
 
-Sequlize example
+Sequelize example
